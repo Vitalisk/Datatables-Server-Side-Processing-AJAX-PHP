@@ -1,0 +1,12 @@
+INSTRUCTIONS
+
+Using Duqa MVC PHP Framework. After installation and confident setting it up on you local server.
+Add a controller called Auth on your Duqa MVC
+Add a model called Auth_model on your Duqa MVC (Make sure its linked to your database).
+In your Localhost, create tables and columns based on tables and columns in Auth controller under method getUser using the MySQL statements on the provided functions.
+
+Create afile in view folder in your Duqa MVC called what you will preffer: USE CONNTENTS ON tables.php with instruction in their on what or where to place each item.
+
+Upload the folder called dist on your public folder in Duqa MVC.
+
+Try it out this is a Mayai Problem to solve as is the core for fetching data from database using AJAX call Jquery and PHP
