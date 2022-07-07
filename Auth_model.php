@@ -29,8 +29,15 @@ class Auth_model{
 		$stmt_gets->execute();
 		$count = $stmt_gets->rowCount();
 		return $count;		
+     }
+	
+	public function get_data_where_count_sql($sql){
 		
-	}	
+		$stmt_gets=$this->db->query($sql);
+		$count = $stmt_gets->rowCount();
+		return $count;		
+		
+	}
 
 }
 ?>
