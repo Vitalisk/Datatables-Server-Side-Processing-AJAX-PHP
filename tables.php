@@ -26,7 +26,7 @@
           </table>
           
           <script>
-				    	datatables_url = 'server/getUsers';
+		datatables_url = LINKTOROOTDIRECTORY.'Auth/getUsers';
           </script>
           
         <!--End of main section section-->
