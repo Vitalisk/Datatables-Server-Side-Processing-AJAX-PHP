@@ -20,6 +20,17 @@ class Auth_model{
       return false;
 
     }	
+    
+    public function get_data_count($table,$array_column){
+	
+		$column = implode(", ", $array_column);
+		
+		$stmt_gets=$this->db->prepare(sprintf("SELECT $column FROM $table ORDER by id DESC"));
+		$stmt_gets->execute();
+		$count = $stmt_gets->rowCount();
+		return $count;		
+		
+	}	
 
 }
 ?>
